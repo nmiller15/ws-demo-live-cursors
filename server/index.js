@@ -29,6 +29,7 @@ const handleMessage = (bytes, uuid) => {
 
   broadcastUsers();
 
+  console.log(`${user.username} updated their state`);
   console.log(message);
 };
 
